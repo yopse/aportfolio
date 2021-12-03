@@ -2,7 +2,12 @@
 
 
 /* font-family: 'Poppins', sans-serif; */
+:root {
 
+     --primary-color:#502d3c;
+     --dark-black:#000;
+     --light-yellow:#ffb81c;
+}
 
 body {
 
@@ -25,5 +30,114 @@ body {
    max-width:600px;
    margin:auto;  
 }
+hr {
+
+     margin:3rem 0;
+}
+
+/* links */
+
+.link {
+ text-decoration: none;
+ padding:0.5rem 1rem;
+     
+}
+
+.primary-link {
+
+     background-color:var(--primary-color);
+     border-radius:0.5rem;
+     color: white;
+     text-decoration: none;
+     
+}
+
+.secondary-link {
+ 
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border:1px solid var(--primary-color);
+    text-decoration: none;
+} 
 
 
+
+/* lists  */
+
+.list-non-bullet {
+
+     list-style: none;
+}
+
+
+
+.list-item-inline {
+
+      display: inline;
+      padding: 0rem 0.5rem;
+}
+
+
+/* navigation starts*/
+
+.navigation {
+
+     background-color: var(--primary-color);
+     color: #fff;
+     padding: 1rem;
+     border-bottom-left-radius: 1rem;
+}
+.nav-pills {
+
+     text-align: right;
+}
+
+.nav-pills a{
+
+     color: #fff !important;
+     text-decoration: none;
+     font-weight:600;
+ 
+}
+
+.nav-pills li a:hover{
+
+    color: #ffb81c!important;
+}
+
+.nav-brand {
+
+     font-weight: bold;
+     font-size:1.1rem;
+}
+
+
+.hero {
+
+     border: 2px solid firebrick;
+     padding:2rem;
+    
+}
+
+
+.hero .hero-img {
+
+
+     width:350px;
+     display: block;
+     margin: auto;
+}
+
+
+.hero .hero-heading {
+   font-size: 2.3rem;
+     text-align: center;
+     color: var(--primary-color);
+     letter-spacing:4px;
+     padding-top: 1rem;
+}
+
+.heading-inverted {
+
+     color: var(--dark-black);
+}

@@ -36,32 +36,32 @@
 <hr>
   <h2>@Links</h2>
 
-  <a href="/">Primary Link</a>
-  <a href="/">Secondary Link</a>
+  <a href="/" class="primary-link link">Primary Link</a>
+  <a href="/" class="secondary-link link">Secondary Link</a>
 
   <hr>
 
      <h2>@Lists</h2>
 
      <h3>urordered list</h3>
-
-       <ul>
+     <p>This list will not have bullet</p>
+       <ul class="list-non-bullet">
          <li>Item One</li>
          <li>Item Two</li>
          <li>Item Three</li>
        </ul>
        
        <h3>Unordered inline list</h3>
-       <ul>
-           <li>Inline Item One</li>
-            <li>Inline Item Two</li>
-            <li>Inline Item Three</li>
+       <ul class="list-non-bullet">
+           <li class="list-item-inline">Inline Item One</li>
+            <li class="list-item-inline">Inline Item Two</li>
+            <li class="list-item-inline">Inline Item Three</li>
        </ul>
 
 
          <h3>reversed ordered list</h3>
 
-         <ol >
+         <ol reversed >
            <li>milk</li>
            <li>elaichi</li>
            <li>break</li>
@@ -71,15 +71,15 @@
 
        <h2>@nav</h2>
 
-          <nav>
-              <div class="logo">
+          <nav class="navigation container">
+              <div class="nav-brand">
                 iamdeveloper
               </div>
-
-                <ul>
-                   <li><a href="/">home</a></li>
-                   <li><a href=""></a>projects</li>
-                   <li><a href="">about</a></li>
+ 
+                <ul class="list-non-bullet nav-pills">
+                   <li class="list-item-inline" ><a href="/">HOME</a></li>
+                   <li class="list-item-inline"><a href="">PROJECTS</a></li>
+                   <li class="list-item-inline" ><a href="">BLOGS</a></li>
                 </ul>
           </nav>
 
@@ -88,9 +88,9 @@
 
            <h2>header</h2>
 
-           <header>
-              <img src="img/pr.svg" width="200px"alt="">
-              <h1>Heading inside header </h1>
+           <header class="hero">
+              <img class="hero-img" src="img/prf.svg" alt="">
+              <h1 class="hero-heading"> Archish Jain <span class="heading-inverted">the web developer</span>  </h1>
            </header>
 
            <hr>
