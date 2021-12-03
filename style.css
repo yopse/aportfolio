@@ -7,6 +7,7 @@
      --primary-color:#502d3c;
      --dark-black:#000;
      --light-yellow:#ffb81c;
+     --off-white:#f3f4f6;
 }
 
 body {
@@ -133,11 +134,36 @@ hr {
    font-size: 2.3rem;
      text-align: center;
      color: var(--primary-color);
-     letter-spacing:4px;
+     letter-spacing:3px;
      padding-top: 1rem;
+     font-weight: 800;
 }
 
 .heading-inverted {
 
      color: var(--dark-black);
 }
+
+
+
+/* section starts */
+
+.section {
+
+    padding:2rem;
+}
+
+.section h1 {
+
+     text-align: center;
+     
+}
+
+.ow {
+
+     background-color: var(--off-white);
+}
+
+/* 
+footer */
+
