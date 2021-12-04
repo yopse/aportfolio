@@ -14,6 +14,8 @@ body {
 
 
      font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
 }
 
 
@@ -87,21 +89,22 @@ hr {
      color: #fff;
      padding: 1rem;
      border-bottom-left-radius: 1rem;
+     box-shadow: 0px 1px 10px #999;
 }
 .nav-pills {
 
      text-align: right;
 }
 
-.nav-pills a{
+.nav-pills .dd{
 
-     color: #fff !important;
+      color: #fff !important;
      text-decoration: none;
      font-weight:600;
  
 }
 
-.nav-pills li a:hover{
+.nav-pills li .dd:hover{
 
     color: #ffb81c!important;
 }
@@ -115,7 +118,7 @@ hr {
 
 .hero {
 
-     border: 2px solid firebrick;
+    
      padding:2rem;
     
 }
@@ -162,8 +165,70 @@ hr {
 .ow {
 
      background-color: var(--off-white);
+
 }
 
-/* 
-footer */
+
+.footer {
+
+   
+    background-color: var(--primary-color);
+    background: linear-gradient( 
+   270deg,#502b3a -6.25%,transparent 105.53%),#000;
+    color: #fff!important;
+    padding:2rem 1rem;
+   text-align: center;
+   border-top-right-radius: 1rem;
+
+}
+
+
+.footer .footer-header {
+
+      font-weight: bold;
+      font-size:large ;
+}
+
+.footer .link{
+ 
+     color: #fff!important;
+}
+
+
+.plink {
+
+    background-color:#ffb81c;
+    color: var(--dark-black);
+    font-weight:700;
+    display: inline-block;
+    margin-top:10px !important;
+}
+
+
+.pslink {
+
+    border:2px solid #ffb81c;
+     color: black;
+    font-weight:700;
+    display: inline-block;
+    margin-top:10px !important;
+}
+
+
+.pslink:hover {
+ background-color: #ffb81c;
+ color: #000;
+}
+
+
+.social-links {
+
+     margin-top: 30px;
+}
+
+
+.vv {
+
+      text-align: center;
+}
 

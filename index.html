@@ -5,141 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
   </head>
   <body>
+    <nav class="navigation container">
+      <div class="nav-brand">iamdeveloper</div>
 
-   <h1>Welcome to archish's component library</h1>
-  
-   <p>I am attending neog.camp and i want to make a library which would make all my projects look good and consistent.</p>
-   
-   <hr>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline"><a class="dd link-active" href="index.html">HOME</a></li>
+        <li class="list-item-inline"><a class="dd" href="project.html">PROJECTS</a></li>
+        <li class="list-item-inline"><a class="dd" href="blogs.html">BLOGS</a></li>
+      </ul>
+    </nav>
 
-   <h2>@typography</h2>
+    <header class="hero">
+      <img class="hero-img" src="img/prf.svg" alt="" />
+      <h1 class="hero-heading">
+        Archish Jain <span class="heading-inverted">the web developer</span>
+      </h1>
+    </header>
 
-   <h1>This is the biggest</h1>
-   <h2>This is the second biggest</h2>
-    
- <p>Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Teachnologies</h1>
+        <p>
+          I'm familiar with HTML5, CSS3, C++, Bootstrap, Sass, JavaScript,
+          NodeJS, ReactJS, Git and Web Hosting.
+        </p>
+      </div>
+    </section>
 
- <small>This is relatively smaller text.</small>
+    <section class="section">
+      <div class="container container-center">
+        <h1>Projects</h1>
+        <p>
+          I like to showcase my work and thus, you can see my projects hosted
+          online.
+        </p>
+        <a href="project.html" class="primary-link plink link">See Projects</a>
+      </div>
+    </section>
 
-  <hr>
- <h2>@container</h2>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Blogs</h1>
+        <p>
+          I write blogs on tech related topics that I find interesting It helps
+          me document my journey of learning.
+        </p>
+        <a href="blogs.html" class="secondary-link link pslink">Blogs</a>
+      </div>
+    </section>
 
-      
- <h3>fluid container</h3>
-  <div class="container">This is a fluid container and it will go till the end of the page.</div>
+    <footer class="footer container">
+      <div class="footer-header">Let's Connect!</div>
 
-  <h3>center container</h3>
-  <div class="container container-center">This is a centered container and it will go til the specified width.</div>
-<hr>
-  <h2>@Links</h2>
-
-  <a href="/" class="primary-link link">Primary Link</a>
-  <a href="/" class="secondary-link link">Secondary Link</a>
-
-  <hr>
-
-     <h2>@Lists</h2>
-
-     <h3>urordered list</h3>
-     <p>This list will not have bullet</p>
-       <ul class="list-non-bullet">
-         <li>Item One</li>
-         <li>Item Two</li>
-         <li>Item Three</li>
-       </ul>
-       
-       <h3>Unordered inline list</h3>
-       <ul class="list-non-bullet">
-           <li class="list-item-inline">Inline Item One</li>
-            <li class="list-item-inline">Inline Item Two</li>
-            <li class="list-item-inline">Inline Item Three</li>
-       </ul>
-
-
-         <h3>reversed ordered list</h3>
-
-         <ol reversed >
-           <li>milk</li>
-           <li>elaichi</li>
-           <li>break</li>
-         </ol>
-
-      <hr>
-
-       <h2>@nav</h2>
-
-          <nav class="navigation container">
-              <div class="nav-brand">
-                iamdeveloper
-              </div>
- 
-                <ul class="list-non-bullet nav-pills">
-                   <li class="list-item-inline" ><a href="/">HOME</a></li>
-                   <li class="list-item-inline"><a href="">PROJECTS</a></li>
-                   <li class="list-item-inline" ><a href="">BLOGS</a></li>
-                </ul>
-          </nav>
-
-           <hr>
-
-
-           <h2>header</h2>
-
-           <header class="hero">
-              <img class="hero-img" src="img/prf.svg" alt="">
-              <h1 class="hero-heading"> Archish Jain <span class="heading-inverted">the web developer</span>  </h1>
-           </header>
-
-           <hr>
-
-           <h2>@section</h2>
-          
-           <section class="section">
-
-            <div class="container container-center">
-              <h1>white section</h1>
-              <p>This will have white background</p>
-            </div>
-           
-             
-
-           </section>
-
-           <section class="section ow">
-
-            <div class="container container-center">
-              <h1>off white section</h1>
-              <p>This will have gray background</p>
-               
-            </div>
-          
-
-           </section>
-         <hr>
-
-         <h2>@footer</h2>
-
-            <footer>
-
-               <div>
-                 some small heading inside footer
-               </div>
-
-               <ul>
-                  <li>social icon</li>
-                  <li>social icon</li>
-                  <li>social icon</li>
-               </ul>
-            </footer>
-
-
-
-       <div style="height:30vh;">
-
-       </div>
-
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link c"
+            href="https://www.linkedin.com/in/archish-jain-2a5413214/"
+            >Linkedin
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link c" href="https://github.com/yopse"
+            >Github
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link c" href=""
+            >Instagram
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
